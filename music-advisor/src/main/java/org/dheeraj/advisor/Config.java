@@ -9,9 +9,9 @@ import java.util.List;
 public enum Config {
 
     ACCESS("https://accounts.spotify.com"), // connect server path
-    REDIRECT_URI("http://localhost:8080/"), // local server address
-    CLIENT_ID("Enter your clientId"), // user id
-    SECRET("Enter your SecretId"), // test secret code of spotify app
+    REDIRECT_URI("http://127.0.0.1:8000/callback/"), // local server address
+    CLIENT_ID("Enter your cilentId"), // user id
+    SECRET("enter your Secret"), // test secret code of spotify app
     AUTH_CODE(""), // permission code
     RESOURCE("https://api.spotify.com"), // API server path
     ACCESS_TOKEN(""), // token works as a permission for resources
